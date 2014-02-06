@@ -1,0 +1,17 @@
+{
+    "name"          : "solfegejs-server-static",
+    "description"   : "Static file serving middleware for SolfegeJS server",
+    "version"       : "0.1.0",
+    "author"        : "neolao <contact@neolao.com>",
+    "repository"    : "https://github.com/neolao/solfege-bundle-static.git",
+    "license"       : "MIT",
+    "main"          : "bundle/index.js",
+    "engines"       : 
+    {
+        "node": ">= 0.11.9"
+    },
+    "dependencies"  :
+    {
+        "solfegejs"     : "1.0.x"
+    }
+}
