@@ -45,7 +45,7 @@ proto.overrideConfiguration = function*(customConfiguration)
 proto.middleware = function*(request, response, next)
 {
     var urlInfo = url.parse(request.url);
-    var pathName = urlInfo.pathname;
+    var pathName = decodeURIComponent(urlInfo.pathname);
 
 
     var directories = this.configuration.directories;
